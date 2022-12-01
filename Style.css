@@ -1,0 +1,120 @@
+
+
+html,body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+
+/* ---------------Global Classes------------------ */
+
+
+a{
+    text-decoration: none;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style-type: none;
+}
+/* --------X-------Global Classes--------X---------- */
+
+/* --------------------Navbar----------------------- */
+
+.nav{
+    background: lightblue;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+}
+
+.nav .nav-menu{
+    justify-content: space-between;
+}
+
+.nav .nav-items{
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+}
+
+.nav .nav-brand a{
+font-size: 1.6rem;
+padding: 1rem 0;
+display: block;
+}
+
+
+
+
+/* --------X------------Navbar------------X----------- */
+
+
+/* ---------------------Artical Box-------------------- */
+#Boxside{
+    display: flex;
+}
+.box{
+    width: 45rem;
+    height: 25rem;
+    border: 0.2rem solid rgb(64, 14, 202);
+   margin: 10px;
+    
+}
+
+.sidebox1{
+    width: 18rem;
+    height: 21rem;
+    border: 0.2rem solid rgb(64, 14, 202);
+    margin-top: 10px;
+    margin-left: 270px;
+ 
+    margin-bottom: 10px;
+   
+}
+
+#Boxside1{
+    display: flex;
+}
+.box1{
+    width: 45rem;
+    height: 25rem;
+    border: 0.2rem solid rgb(64, 14, 202);
+   margin: 10px;
+}
+
+.sidebox2{
+    width: 18rem;
+    height: 12rem;
+    border: 0.2rem solid rgb(64, 14, 202);
+     margin-top: 10px;
+    margin-left: 270px;
+ 
+    margin-bottom: 10px;
+
+    /* -----------X----------Artical Box--------X------------ */
+}
+
+.box .butt-on{
+    padding-right: 17.2rem;
+    margin-left: 600px;
+
+}
+.box1 .butt-on1{
+    padding-right: 17.2rem;
+    margin-left: 600px;
+
+}
